@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Movies App</string>
+    <string name="popular">Popular</string>
+    <string name="upcoming">Upcoming</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="upcoming_movies">Upcoming Movies</string>
+    <string name="language">"Language: "</string>
+    <string name="release_date">"Release Date: "</string>
+    <string name="votes">" Votes"</string>
+    <string name="overview">Overview</string>
+</resources>
