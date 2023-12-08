@@ -15,6 +15,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
+import com.ahmedapps.moviesapp.details.peresntation.DetailsScreen
 import com.ahmedapps.moviesapp.movieList.util.Screen
 import com.ahmedapps.moviesapp.ui.theme.MoviesAppTheme
 import com.google.accompanist.systemuicontroller.rememberSystemUiController
@@ -49,7 +50,7 @@ class MainActivity : ComponentActivity() {
                                 navArgument("movieId") { type = NavType.IntType }
                             )
                         ) { backStackEntry ->
-//                            DetailsScreen(backStackEntry)
+                            DetailsScreen()
                         }
                     }
 
